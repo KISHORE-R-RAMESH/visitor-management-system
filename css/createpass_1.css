@@ -1,0 +1,74 @@
+body
+{
+	margin:0px;
+	font-family: verdana;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.back_ground
+{
+	margin: auto;
+	width: 70%;
+	border: 0px solid black;	
+}
+
+.back_ground h1
+{
+text-align: center;	
+color: white;
+}
+.left
+{
+	float: left;
+	width: 63%;
+	border:0px solid black;
+	color: white;
+	padding: 45px;
+}
+.right
+{
+	float: right;
+	width: 25%;
+	border:0px solid black;
+}
+.image_box
+{
+	border:0px solid white;
+	width: 180px;
+	height: 140px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+.qr
+{
+	border:0px solid white;
+	width: 80%;
+	height: 120px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.btn
+{
+
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    padding: 7px 49px;
+    margin-top: 7px;
+    color: black;
+    font-weight: 700;
+}
+.btn1
+{
+
+   width: 43%;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    padding: 7px 17px;
+    margin: 6px 6px;
+    color: black;
+    font-weight: 700;
+    float: left;
+}

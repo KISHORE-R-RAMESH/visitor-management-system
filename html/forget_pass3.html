@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check OTP</title>
+	<style>
+		.main
+		{	
+			width: 100%;
+			text-align: center;
+			margin-top: 50px;
+			height: 640px;
+		}
+		.main h2
+		{
+			color: white;
+		}
+		body
+		{
+			margin:0px;
+			background:-webkit-linear-gradient(#384e72, #4b648c ,#60789e,#4b648c, #384e72);
+		}
+		
+	</style>
+</head>
+<body>
+<form action="../php/forget_pass_2.php" method="post">
+	<div class="main">
+	<h2>Please enter your OTP for your acccount</h2>
+	<input type="text" name="OTP" placeholder="OTP"  style="width: 300px; height: 12px; border-radius: 10px; border: none; padding: 10px;"><br><br>
+	<input type="submit" value="Check" style="width: 200px; height: 25px; border-radius: 10px; border: none;">
+	</div>
+</form>
+</body>
+</html>

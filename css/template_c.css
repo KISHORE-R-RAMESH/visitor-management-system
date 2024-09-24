@@ -1,0 +1,120 @@
+body
+	{
+		margin: 0px;
+	}
+	.wrap
+	{
+		background-image: url(../images/T-Shirt.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 720px;
+		width: 100%;
+		text-align: center;
+	}
+	.transparent
+	{
+		background-color: rgba(43, 1, 45, 0.5);
+		width: 100%;
+		height: 720px;
+	}
+	.order label
+	{
+		color: #ffffff;
+		font-family: verdana;
+		font-size: 52px;
+		letter-spacing: 6px;
+
+	}
+	.order
+	{
+		border: 0px solid white;
+		width: 80%;
+		height: 50px;
+		margin: auto;
+		padding-top: 50px;
+	}
+	.left, .right
+	{
+		width: 35%;
+		height: 557px;
+		border:0px solid white;
+		text-align: left;
+		padding: 32px;
+
+	}
+	.left
+	{
+		float: left;
+		margin-left: 133px;
+	}
+	.right
+	{
+		float: right;
+		margin-right: 131px;
+		margin-top: -3px;
+	}
+	.left label, .right label
+	{
+		font-size: 30px;
+		color: white;
+	}
+	.boxes
+	{
+		height: 23px; 
+		width: 86%;
+		background-color: rgba(43, 1, 45, 0.5);
+		border:none;
+	}
+
+	.right ul
+	{
+		display: inline;
+	}
+	.right li
+	{
+		float: left;
+		margin-left: 33px;
+	}
+	.size
+	{
+		height: 35px;
+		width: 80%;
+		float: left;
+		border:0px solid white;
+	}
+	.size_internal 
+	{
+		height: 37px;
+		width: 13%;
+		margin-left: 20px; 
+		float: left;
+		border:0px solid white;
+		text-align: center;
+		background-color: rgba(43, 1, 45, 0.5);
+		padding-top: 10px;
+	}
+	.color_internal
+	{
+		height: 37px;
+		width: 13%;
+		margin-left: 20px; 
+		float: left;
+		border:0px solid white;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.size_internal label
+	{
+		color: white;
+		font-size: 23px;
+	}
+	.radiobtn
+	{
+		    width: 50px;
+    height: 50px;
+    padding: 13px 13px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+	}
+	

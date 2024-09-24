@@ -1,0 +1,39 @@
+body
+{
+	margin: 0px;
+}
+.wrap
+{
+	background-color: lightblue;
+	width: 80%;
+	min-width: 577px;
+	margin: auto;
+	overflow: hidden;
+	font-family: sans-serif, verdana, Arial;
+}
+.content
+{
+	width: 70%;
+	float: left;
+	background-color: #e3e3e3;
+
+}
+.content, aside
+{
+	height: 500px;
+	border:0px solid black;
+}
+aside
+{
+	width: 29%;
+	float: left;
+	background-color: #ffffff;
+}
+footer
+{
+	text-align: center;
+}
+ul
+{
+	padding-left: 0px;
+}

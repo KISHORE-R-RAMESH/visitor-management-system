@@ -1,0 +1,119 @@
+.main
+{	
+	margin:auto;
+	width: 100%;
+	text-align: center;
+	height: 640px;
+	background-size: 100%;
+	margin-top: 50px;
+}
+.main h2
+{
+	color: white;
+}
+.bevel.tlbr
+{
+	margin:0px;
+	background:-webkit-linear-gradient(#384e72, #4b648c ,#60789e,#4b648c, #384e72);
+}
+
+.slip_main
+{
+	margin:auto;
+	border:0px solid black;
+	font-family: verdana;
+	width: 90%;
+	background-image: url(../images/grad.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.slip_left
+{
+	border:0px solid black;
+	width: 62%;
+	font-family: verdana;
+	float: left;
+	padding: 25px;
+	margin-top: 20px;
+}
+.slip_right
+{
+	width: 25%;
+	margin-top: 20px;
+	float: right;
+	border:0px solid black;
+}
+.slip_instruction
+{
+	border:0px solid black;
+	float: left;
+	width: 90%;
+	margin-top: 20px;
+	bottom: 10px;
+}
+
+.emp_main
+{
+	margin:auto;
+	border:0px solid black;
+	font-family: verdana;
+	width: 80%;
+	text-align: center;
+	padding: 40px;
+}
+.emp_left
+{
+	border:1px solid black;
+	width: 80%;
+	font-family: verdana;
+	float: left;
+	padding: 25px;
+	margin-top: 20px;
+}
+.emp_right
+{
+	border:1px solid black;
+	width: 25%;
+	font-family: verdana;
+	float: right;
+	padding: 10px;
+	margin-top: 20px;
+}
+.admin_main
+{
+	margin: auto;
+	width: 70%;
+	border:0px solid white;
+	text-align: center;
+	padding: 45px;
+
+}
+.admin_transparent
+{
+	background-color: rgba(43, 1, 45, 0.5);
+	height: 670px;
+	width: 100%;	
+
+}
+.admin_center,.department_center
+{
+	width: 100%;
+	border:0px solid white;
+	text-align: center;
+	margin-top: 35px;
+}
+.sign:hover
+{
+	transform: scale(1.1);
+	transition-duration: 1s;
+}
+.department_main
+{
+	height:500px;
+	width:50%;
+	float:left;
+	margin-top:80px;
+	margin-left:300px;
+	text-align:center;
+	border:0px solid rgba(1,0,1,1.00);
+}
